@@ -9,6 +9,7 @@ setup(
     url='https://github.com/adisbladis/bulkrecode',
     license = "GNU GPLv3",
     packages=find_packages(),
+    download_url='https://github.com/adisbladis/bulkrecode/tarball/1.0',
     scripts=[
         'bin/brc',
     ],
