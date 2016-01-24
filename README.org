@@ -1,0 +1,9 @@
+* Basic usage
+brc /path/to/music/ /mnt/sdcard/
+This will copy the entire tree under music and recode the supported formats to specified format (default is ogg) with as many concurrent processes as there are CPU cores on the system
+
+* Implicit directory name
+brc /path/to/album This will create a new directory which is the basename of the first argument, in this case album
+
+* Thanks
+Thanks to @toddfoster who contributed to the predecessor of this program (https://github.com/adisbladis/flac2ogg/)
