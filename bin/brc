@@ -86,10 +86,10 @@ class Commands:
             '-vn',  # No video
             '-y',  # Overwrite
             '-map_metadata:s:a', '0:s:0',  # Copy metadata
-            dst
         ]
         if quality:
             args.extend(['-q:a', str(quality)])
+        args.append(dst)
 
         p = subprocess.Popen(
             args,
