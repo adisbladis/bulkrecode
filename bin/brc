@@ -5,6 +5,10 @@ Licensed under GPLv3
 Written by adis@blad.is
 '''
 from multiprocessing import cpu_count
+try:
+    from configparser import ConfigParser
+except ImportError:
+    from ConfigParser import ConfigParser
 import concurrent.futures
 import subprocess
 import argparse
@@ -61,6 +65,9 @@ argparser.add_argument('-i',
                            'raw'
                        ],
                        help='Extra input format')
+
+
+configparser = ConfigParser()
 
 
 class Commands:
