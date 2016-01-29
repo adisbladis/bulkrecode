@@ -1,6 +1,6 @@
-=======================================================
+=============================
 brc - Bulk recode audio files
-=======================================================
+=============================
 
 -----
 Usage
@@ -9,7 +9,7 @@ Usage
 .. code-block:: bash
 
     $ brc -h
-    usage: brc [-h] [-x] [-t T] [-q Q] [-o O] [-i I] input [output]
+    usage: brc [-h] [-x] [-t T] [-q Q] [-np] [-o O] [-i I] input [output]
 
     Transcode directory trees
 
@@ -22,6 +22,7 @@ Usage
       -x          Overwrite non-empty output files
       -t T        Transcoding processes
       -q Q        FFmpeg output quality
+      -np         Don't print progress
       -o O        Output format
       -i I        Extra input format
 
