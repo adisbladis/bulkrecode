@@ -18,7 +18,7 @@ import os
 
 
 DEFAULT_QUALITY = {
-    'ogg': 8,
+    'ogg': 9,
     'mp3': 2,
     'm4a': 2.5
 }
