@@ -22,7 +22,7 @@ Usage
       -x          Overwrite non-empty output files
       -t T        Transcoding processes
       -q Q        FFmpeg output quality
-      -np         Don't print progress
+      -np         Dont print progress
       -o O        Output format
       -i I        Extra input format
 
